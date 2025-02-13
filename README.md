@@ -6,6 +6,6 @@ This repo presents the page of a recipe.
 
 ---
 
-Je pratique et mets en pratique la théorie à travers la réalisation d'exercices de [Frontend Mentor](https://www.frontendmentor.io).  
+Je mets en pratique la théorie à travers la réalisation d'exercices de [Frontend Mentor](https://www.frontendmentor.io).  
 
 Ce dépôt présente la page d'une recette.
