@@ -1,5 +1,11 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    font-size: 14px;
+    color: hsl(228, 45%, 44%); 
+    }
 
 * {
     font-family: Outfit;
@@ -12,23 +18,24 @@ body {
     margin: auto;
 }
 
-img {
-    border-radius: 0.6rem;
-}
-
 h1 {
     font-family: young-serif;
     font-weight: bold;
-    color: black;
-    font-size: 2rem;
-    margin: 1rem 0;
+    color: hsl(24, 5%, 18%);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
     font-family: young-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: hsl(14, 45%, 36%);
     margin: 12px 0;
+}
+
+img {
+    border-radius: 0.6rem;
+    margin-bottom: 2rem;
 }
 
 li{
@@ -36,36 +43,61 @@ li{
 }
 
 li::marker {
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
 }
 
-section {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 0.5px solid hsl(30, 10%, 34%);
+ol > li::marker {
+    font-weight: bold;
+}
+
+ul, ol {
+    padding-left: 1.5em;
+    margin-left: 0;
 }
 
 .container {
     display : block;
     background-color: white;
     width: 45em;
-    margin: 3em auto;
+    margin: 5em auto;
     padding: 2em;
     border-radius: 1rem;
 }
 
-.pres {
-    margin-bottom: 1rem;
+.item2, .item4, .item6, .item8{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    border-bottom: 1px solid hsla(32, 10%, 34%, 0.521);
+}
+
+.ingredients, .instructions {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(30, 10%, 34%, 0.521);
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+}
+
+.table p {
+    padding: 6px 0 6px 2rem;
 }
 
 .preparation {
     background-color: hsl(330, 100%, 98%);
-    padding: 1rem;
+    padding: 1rem 2rem;
     height: 11rem;
     border-radius: 0.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 2rem;
 }
 
 .preparation > h2 {
@@ -73,4 +105,8 @@ section {
     font-family: outfit;
     font-size: 1.2rem;
     margin: 0;
+}
+
+.pres {
+    margin-bottom: 2rem;
 }
